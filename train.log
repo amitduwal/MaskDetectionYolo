@@ -1,0 +1,953 @@
+yolov3_training
+net.optimized_memory = 0 
+mini_batch = 4, batch = 64, time_steps = 1, train = 1 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+
+ seen 64, trained: 0 K-images (0 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.9, Decay: 0.0005
+ Detection layer: 82 - type = 28 
+ Detection layer: 94 - type = 28 
+ Detection layer: 106 - type = 28 
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000043 seconds
+]2;1/4000: loss=1626.3 hours left=-1.0
+ 1: 1626.271729, 1626.271729 avg loss, 0.000000 rate, 8.670154 seconds, 64 images, -1.000000 hours left
+Loaded: 0.000097 seconds
+]2;2/4000: loss=1629.4 hours left=9.6
+ 2: 1629.444824, 1626.588989 avg loss, 0.000000 rate, 8.983769 seconds, 128 images, 9.631364 hours left
+Loaded: 0.000071 seconds
+]2;3/4000: loss=1630.3 hours left=9.6
+ 3: 1630.276855, 1626.957764 avg loss, 0.000000 rate, 9.094499 seconds, 192 images, 9.634893 hours left
+Loaded: 0.000054 seconds
+]2;4/4000: loss=1630.5 hours left=9.6
+ 4: 1630.523682, 1627.314331 avg loss, 0.000000 rate, 9.252347 seconds, 256 images, 9.639521 hours left
+Loaded: 0.000085 seconds
+]2;5/4000: loss=1629.9 hours left=9.6
+ 5: 1629.850586, 1627.567993 avg loss, 0.000000 rate, 9.341750 seconds, 320 images, 9.645830 hours left
+Loaded: 0.000078 seconds
+]2;6/4000: loss=1629.5 hours left=9.7
+ 6: 1629.508911, 1627.762085 avg loss, 0.000000 rate, 9.478869 seconds, 384 images, 9.653043 hours left
+Loaded: 0.000073 seconds
+]2;7/4000: loss=1629.2 hours left=9.7
+ 7: 1629.180786, 1627.903931 avg loss, 0.000000 rate, 9.659339 seconds, 448 images, 9.661679 hours left
+Loaded: 0.000084 seconds
+]2;8/4000: loss=1632.0 hours left=9.7
+ 8: 1631.982178, 1628.311768 avg loss, 0.000000 rate, 9.760361 seconds, 512 images, 9.672204 hours left
+Loaded: 0.000094 seconds
+]2;9/4000: loss=1629.9 hours left=9.7
+ 9: 1629.857910, 1628.466431 avg loss, 0.000000 rate, 9.920673 seconds, 576 images, 9.683717 hours left
+Loaded: 0.000056 seconds
+]2;10/4000: loss=1629.8 hours left=9.7
+ 10: 1629.847046, 1628.604492 avg loss, 0.000000 rate, 10.141395 seconds, 640 images, 9.696865 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000042 seconds
+]2;11/4000: loss=545.4 hours left=9.7
+ 11: 545.412354, 1520.285278 avg loss, 0.000000 rate, 3.667997 seconds, 704 images, 9.712300 hours left
+Loaded: 0.000060 seconds
+]2;12/4000: loss=545.8 hours left=9.7
+ 12: 545.780029, 1422.834717 avg loss, 0.000000 rate, 3.732120 seconds, 768 images, 9.655823 hours left
+Loaded: 0.000077 seconds
+]2;13/4000: loss=545.6 hours left=9.6
+ 13: 545.632507, 1335.114502 avg loss, 0.000000 rate, 3.725240 seconds, 832 images, 9.600611 hours left
+Loaded: 0.000049 seconds
+]2;14/4000: loss=545.4 hours left=9.5
+ 14: 545.424255, 1256.145508 avg loss, 0.000000 rate, 3.747429 seconds, 896 images, 9.545866 hours left
+Loaded: 0.000091 seconds
+]2;15/4000: loss=545.3 hours left=9.5
+ 15: 545.308105, 1185.061768 avg loss, 0.000000 rate, 3.748608 seconds, 960 images, 9.491902 hours left
+Loaded: 0.000057 seconds
+]2;16/4000: loss=544.9 hours left=9.4
+ 16: 544.876648, 1121.043213 avg loss, 0.000000 rate, 3.739364 seconds, 1024 images, 9.438482 hours left
+Loaded: 0.000070 seconds
+]2;17/4000: loss=545.7 hours left=9.4
+ 17: 545.655151, 1063.504395 avg loss, 0.000000 rate, 3.737730 seconds, 1088 images, 9.385482 hours left
+Loaded: 0.000054 seconds
+]2;18/4000: loss=544.6 hours left=9.3
+ 18: 544.559326, 1011.609863 avg loss, 0.000000 rate, 3.688139 seconds, 1152 images, 9.332984 hours left
+Loaded: 0.000073 seconds
+]2;19/4000: loss=545.3 hours left=9.3
+ 19: 545.285583, 964.977417 avg loss, 0.000000 rate, 3.673598 seconds, 1216 images, 9.280452 hours left
+Loaded: 0.000055 seconds
+]2;20/4000: loss=545.7 hours left=9.2
+ 20: 545.710083, 923.050659 avg loss, 0.000000 rate, 3.640650 seconds, 1280 images, 9.228275 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000049 seconds
+]2;21/4000: loss=648.4 hours left=9.2
+ 21: 648.439880, 895.589600 avg loss, 0.000000 rate, 3.971691 seconds, 1344 images, 9.176244 hours left
+Loaded: 0.000054 seconds
+]2;22/4000: loss=650.3 hours left=9.1
+ 22: 650.328979, 871.063538 avg loss, 0.000000 rate, 4.072534 seconds, 1408 images, 9.128383 hours left
+Loaded: 0.000056 seconds
+]2;23/4000: loss=648.5 hours left=9.1
+ 23: 648.459778, 848.803162 avg loss, 0.000000 rate, 4.035748 seconds, 1472 images, 9.082103 hours left
+Loaded: 0.000044 seconds
+]2;24/4000: loss=648.8 hours left=9.0
+ 24: 648.755188, 828.798340 avg loss, 0.000000 rate, 4.044747 seconds, 1536 images, 9.035869 hours left
+Loaded: 0.000054 seconds
+]2;25/4000: loss=649.5 hours left=9.0
+ 25: 649.530701, 810.871582 avg loss, 0.000000 rate, 4.043209 seconds, 1600 images, 8.990185 hours left
+Loaded: 0.000075 seconds
+]2;26/4000: loss=648.1 hours left=8.9
+ 26: 648.131958, 794.597595 avg loss, 0.000000 rate, 4.106206 seconds, 1664 images, 8.944930 hours left
+Loaded: 0.000069 seconds
+]2;27/4000: loss=649.0 hours left=8.9
+ 27: 649.001404, 780.037964 avg loss, 0.000000 rate, 4.049105 seconds, 1728 images, 8.900811 hours left
+Loaded: 0.000070 seconds
+]2;28/4000: loss=648.7 hours left=8.9
+ 28: 648.656555, 766.899841 avg loss, 0.000000 rate, 4.075105 seconds, 1792 images, 8.856493 hours left
+Loaded: 0.000056 seconds
+]2;29/4000: loss=648.3 hours left=8.8
+ 29: 648.303467, 755.040222 avg loss, 0.000000 rate, 4.071571 seconds, 1856 images, 8.812893 hours left
+Loaded: 0.000059 seconds
+]2;30/4000: loss=648.4 hours left=8.8
+ 30: 648.426208, 744.378845 avg loss, 0.000000 rate, 4.093567 seconds, 1920 images, 8.769678 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000039 seconds
+]2;31/4000: loss=544.3 hours left=8.7
+ 31: 544.338623, 724.374817 avg loss, 0.000000 rate, 3.534169 seconds, 1984 images, 8.727127 hours left
+Loaded: 0.000054 seconds
+]2;32/4000: loss=544.6 hours left=8.7
+ 32: 544.555420, 706.392883 avg loss, 0.000000 rate, 3.656835 seconds, 2048 images, 8.678823 hours left
+Loaded: 0.000051 seconds
+]2;33/4000: loss=545.3 hours left=8.6
+ 33: 545.284302, 690.282043 avg loss, 0.000000 rate, 3.648092 seconds, 2112 images, 8.632344 hours left
+Loaded: 0.000045 seconds
+]2;34/4000: loss=544.4 hours left=8.6
+ 34: 544.420349, 675.695862 avg loss, 0.000000 rate, 3.707601 seconds, 2176 images, 8.586223 hours left
+Loaded: 0.000049 seconds
+]2;35/4000: loss=543.4 hours left=8.5
+ 35: 543.414001, 662.467651 avg loss, 0.000000 rate, 3.684989 seconds, 2240 images, 8.541209 hours left
+Loaded: 0.000091 seconds
+]2;36/4000: loss=543.3 hours left=8.5
+ 36: 543.349426, 650.555847 avg loss, 0.000000 rate, 3.676997 seconds, 2304 images, 8.496386 hours left
+Loaded: 0.000057 seconds
+]2;37/4000: loss=543.5 hours left=8.5
+ 37: 543.521973, 639.852478 avg loss, 0.000000 rate, 3.677328 seconds, 2368 images, 8.451913 hours left
+Loaded: 0.000075 seconds
+]2;38/4000: loss=542.9 hours left=8.4
+ 38: 542.943054, 630.161560 avg loss, 0.000000 rate, 3.652552 seconds, 2432 images, 8.407878 hours left
+Loaded: 0.000049 seconds
+]2;39/4000: loss=543.3 hours left=8.4
+ 39: 543.333435, 621.478760 avg loss, 0.000000 rate, 3.668491 seconds, 2496 images, 8.364001 hours left
+Loaded: 0.000079 seconds
+]2;40/4000: loss=542.7 hours left=8.3
+ 40: 542.743896, 613.605286 avg loss, 0.000000 rate, 3.664569 seconds, 2560 images, 8.320727 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000037 seconds
+]2;41/4000: loss=1623.6 hours left=8.3
+ 41: 1623.591553, 714.603882 avg loss, 0.000000 rate, 9.849280 seconds, 2624 images, 8.277833 hours left
+Loaded: 0.000057 seconds
+]2;42/4000: loss=1615.9 hours left=8.3
+ 42: 1615.949585, 804.738464 avg loss, 0.000000 rate, 10.142032 seconds, 2688 images, 8.303372 hours left
+Loaded: 0.000075 seconds
+]2;43/4000: loss=1616.0 hours left=8.3
+ 43: 1616.036621, 885.868286 avg loss, 0.000000 rate, 10.151160 seconds, 2752 images, 8.331847 hours left
+Loaded: 0.000069 seconds
+]2;44/4000: loss=1615.7 hours left=8.4
+ 44: 1615.676025, 958.849060 avg loss, 0.000000 rate, 10.100751 seconds, 2816 images, 8.360111 hours left
+Loaded: 0.000071 seconds
+]2;45/4000: loss=1612.4 hours left=8.4
+ 45: 1612.449219, 1024.209106 avg loss, 0.000000 rate, 10.158890 seconds, 2880 images, 8.387509 hours left
+Loaded: 0.000068 seconds
+]2;46/4000: loss=1612.4 hours left=8.4
+ 46: 1612.418579, 1083.030029 avg loss, 0.000000 rate, 10.114843 seconds, 2944 images, 8.415256 hours left
+Loaded: 0.000084 seconds
+]2;47/4000: loss=1605.4 hours left=8.4
+ 47: 1605.422485, 1135.269287 avg loss, 0.000000 rate, 10.068519 seconds, 3008 images, 8.442201 hours left
+Loaded: 0.000062 seconds
+]2;48/4000: loss=1604.2 hours left=8.5
+ 48: 1604.237671, 1182.166138 avg loss, 0.000000 rate, 10.122065 seconds, 3072 images, 8.468340 hours left
+Loaded: 0.000060 seconds
+]2;49/4000: loss=1600.2 hours left=8.5
+ 49: 1600.231812, 1223.972656 avg loss, 0.000000 rate, 10.129671 seconds, 3136 images, 8.494778 hours left
+Loaded: 0.000077 seconds
+]2;50/4000: loss=1596.1 hours left=8.5
+ 50: 1596.134399, 1261.188843 avg loss, 0.000000 rate, 10.086577 seconds, 3200 images, 8.521007 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.013196 seconds
+]2;51/4000: loss=1588.9 hours left=8.5
+ 51: 1588.903320, 1293.960327 avg loss, 0.000000 rate, 9.820538 seconds, 3264 images, 8.546472 hours left
+Loaded: 0.000063 seconds
+]2;52/4000: loss=1584.9 hours left=8.6
+ 52: 1584.903687, 1323.054688 avg loss, 0.000000 rate, 10.083681 seconds, 3328 images, 8.568880 hours left
+Loaded: 0.000093 seconds
+]2;53/4000: loss=1574.5 hours left=8.6
+ 53: 1574.520996, 1348.201294 avg loss, 0.000000 rate, 10.087453 seconds, 3392 images, 8.593779 hours left
+Loaded: 0.000079 seconds
+]2;54/4000: loss=1571.6 hours left=8.6
+ 54: 1571.550049, 1370.536133 avg loss, 0.000000 rate, 10.084153 seconds, 3456 images, 8.618442 hours left
+Loaded: 0.000112 seconds
+]2;55/4000: loss=1562.8 hours left=8.6
+ 55: 1562.762695, 1389.758789 avg loss, 0.000000 rate, 10.132822 seconds, 3520 images, 8.642794 hours left
+Loaded: 0.000069 seconds
+]2;56/4000: loss=1553.1 hours left=8.7
+ 56: 1553.090332, 1406.091919 avg loss, 0.000000 rate, 10.122209 seconds, 3584 images, 8.667409 hours left
+Loaded: 0.000078 seconds
+]2;57/4000: loss=1548.6 hours left=8.7
+ 57: 1548.558350, 1420.338623 avg loss, 0.000000 rate, 10.099355 seconds, 3648 images, 8.691632 hours left
+Loaded: 0.000056 seconds
+]2;58/4000: loss=1535.9 hours left=8.7
+ 58: 1535.910767, 1431.895874 avg loss, 0.000000 rate, 10.135491 seconds, 3712 images, 8.715352 hours left
+Loaded: 0.000091 seconds
+]2;59/4000: loss=1529.6 hours left=8.7
+ 59: 1529.622314, 1441.668457 avg loss, 0.000000 rate, 10.116439 seconds, 3776 images, 8.739185 hours left
+Loaded: 0.000058 seconds
+]2;60/4000: loss=1520.0 hours left=8.8
+ 60: 1520.022095, 1449.503784 avg loss, 0.000000 rate, 10.143419 seconds, 3840 images, 8.762544 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000062 seconds
+]2;61/4000: loss=502.4 hours left=8.8
+ 61: 502.428894, 1354.796265 avg loss, 0.000000 rate, 3.556395 seconds, 3904 images, 8.785936 hours left
+Loaded: 0.000054 seconds
+]2;62/4000: loss=498.9 hours left=8.7
+ 62: 498.853821, 1269.202026 avg loss, 0.000000 rate, 3.656817 seconds, 3968 images, 8.736991 hours left
+Loaded: 0.000054 seconds
+]2;63/4000: loss=495.5 hours left=8.7
+ 63: 495.523163, 1191.834106 avg loss, 0.000000 rate, 3.737746 seconds, 4032 images, 8.689626 hours left
+Loaded: 0.000049 seconds
+]2;64/4000: loss=490.1 hours left=8.6
+ 64: 490.081604, 1121.658813 avg loss, 0.000000 rate, 3.653067 seconds, 4096 images, 8.643609 hours left
+Loaded: 0.000048 seconds
+]2;65/4000: loss=486.7 hours left=8.6
+ 65: 486.730927, 1058.166016 avg loss, 0.000000 rate, 3.678597 seconds, 4160 images, 8.597115 hours left
+Loaded: 0.000080 seconds
+]2;66/4000: loss=482.9 hours left=8.6
+ 66: 482.924042, 1000.641846 avg loss, 0.000000 rate, 3.692526 seconds, 4224 images, 8.551356 hours left
+Loaded: 0.000060 seconds
+]2;67/4000: loss=479.9 hours left=8.5
+ 67: 479.903992, 948.568054 avg loss, 0.000000 rate, 3.661826 seconds, 4288 images, 8.506197 hours left
+Loaded: 0.000053 seconds
+]2;68/4000: loss=475.8 hours left=8.5
+ 68: 475.833984, 901.294678 avg loss, 0.000000 rate, 3.667678 seconds, 4352 images, 8.461144 hours left
+Loaded: 0.000043 seconds
+]2;69/4000: loss=471.1 hours left=8.4
+ 69: 471.072235, 858.272461 avg loss, 0.000000 rate, 3.682921 seconds, 4416 images, 8.416594 hours left
+Loaded: 0.000050 seconds
+]2;70/4000: loss=466.6 hours left=8.4
+ 70: 466.641296, 819.109375 avg loss, 0.000000 rate, 3.672631 seconds, 4480 images, 8.372646 hours left
+Resizing, random_coef = 1.40 
+
+ 576 x 576 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000044 seconds
+]2;71/4000: loss=1244.7 hours left=8.3
+ 71: 1244.690308, 861.667480 avg loss, 0.000000 rate, 8.969108 seconds, 4544 images, 8.329016 hours left
+Loaded: 0.000081 seconds
+]2;72/4000: loss=1235.5 hours left=8.3
+ 72: 1235.453491, 899.046082 avg loss, 0.000000 rate, 9.250927 seconds, 4608 images, 8.343616 hours left
+Loaded: 0.000084 seconds
+]2;73/4000: loss=1222.0 hours left=8.4
+ 73: 1221.994141, 931.340881 avg loss, 0.000000 rate, 9.263550 seconds, 4672 images, 8.361121 hours left
+Loaded: 0.000089 seconds
+]2;74/4000: loss=1204.7 hours left=8.4
+ 74: 1204.699707, 958.676758 avg loss, 0.000000 rate, 9.270710 seconds, 4736 images, 8.378563 hours left
+Loaded: 0.000055 seconds
+]2;75/4000: loss=1187.2 hours left=8.4
+ 75: 1187.216064, 981.530701 avg loss, 0.000000 rate, 9.215726 seconds, 4800 images, 8.395893 hours left
+Loaded: 0.000070 seconds
+]2;76/4000: loss=1169.0 hours left=8.4
+ 76: 1168.977051, 1000.275330 avg loss, 0.000000 rate, 9.229871 seconds, 4864 images, 8.412414 hours left
+Loaded: 0.000082 seconds
+]2;77/4000: loss=1152.3 hours left=8.4
+ 77: 1152.344971, 1015.482300 avg loss, 0.000000 rate, 9.225810 seconds, 4928 images, 8.428899 hours left
+Loaded: 0.000051 seconds
+]2;78/4000: loss=1131.9 hours left=8.4
+ 78: 1131.850586, 1027.119141 avg loss, 0.000000 rate, 9.207327 seconds, 4992 images, 8.445148 hours left
+Loaded: 0.000074 seconds
+]2;79/4000: loss=1116.8 hours left=8.5
+ 79: 1116.798950, 1036.087158 avg loss, 0.000000 rate, 9.232973 seconds, 5056 images, 8.461009 hours left
+Loaded: 0.000064 seconds
+]2;80/4000: loss=1094.6 hours left=8.5
+ 80: 1094.622070, 1041.940674 avg loss, 0.000000 rate, 9.272753 seconds, 5120 images, 8.476964 hours left
+Resizing, random_coef = 1.40 
+
+ 544 x 544 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.330683 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;81/4000: loss=954.7 hours left=8.5
+ 81: 954.662598, 1033.212891 avg loss, 0.000000 rate, 8.305382 seconds, 5184 images, 8.493168 hours left
+Loaded: 0.000078 seconds
+]2;82/4000: loss=936.0 hours left=8.5
+ 82: 936.039734, 1023.495605 avg loss, 0.000000 rate, 8.498280 seconds, 5248 images, 8.502252 hours left
+Loaded: 0.000079 seconds
+]2;83/4000: loss=913.0 hours left=8.5
+ 83: 912.977905, 1012.443848 avg loss, 0.000000 rate, 8.536842 seconds, 5312 images, 8.509722 hours left
+Loaded: 0.000074 seconds
+]2;84/4000: loss=894.0 hours left=8.5
+ 84: 894.028931, 1000.602356 avg loss, 0.000000 rate, 8.543279 seconds, 5376 images, 8.517513 hours left
+Loaded: 0.000087 seconds
+]2;85/4000: loss=871.7 hours left=8.5
+ 85: 871.685791, 987.710693 avg loss, 0.000000 rate, 8.533354 seconds, 5440 images, 8.525273 hours left
+Loaded: 0.000049 seconds
+]2;86/4000: loss=847.2 hours left=8.5
+ 86: 847.213867, 973.661011 avg loss, 0.000000 rate, 8.552775 seconds, 5504 images, 8.532823 hours left
+Loaded: 0.000092 seconds
+]2;87/4000: loss=821.4 hours left=8.5
+ 87: 821.391418, 958.434082 avg loss, 0.000000 rate, 8.528229 seconds, 5568 images, 8.540486 hours left
+Loaded: 0.000061 seconds
+]2;88/4000: loss=796.6 hours left=8.5
+ 88: 796.578003, 942.248474 avg loss, 0.000000 rate, 8.578396 seconds, 5632 images, 8.547781 hours left
+Loaded: 0.000066 seconds
+]2;89/4000: loss=779.2 hours left=8.6
+ 89: 779.155823, 925.939209 avg loss, 0.000000 rate, 8.551836 seconds, 5696 images, 8.555525 hours left
+Loaded: 0.000089 seconds
+]2;90/4000: loss=754.5 hours left=8.6
+ 90: 754.495789, 908.794861 avg loss, 0.000000 rate, 8.545078 seconds, 5760 images, 8.562879 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000042 seconds
+]2;91/4000: loss=362.3 hours left=8.6
+ 91: 362.316101, 854.146973 avg loss, 0.000000 rate, 3.991967 seconds, 5824 images, 8.570063 hours left
+Loaded: 0.000053 seconds
+]2;92/4000: loss=349.9 hours left=8.5
+ 92: 349.938019, 803.726074 avg loss, 0.000000 rate, 4.139474 seconds, 5888 images, 8.527711 hours left
+Loaded: 0.000071 seconds
+]2;93/4000: loss=338.7 hours left=8.5
+ 93: 338.659393, 757.219421 avg loss, 0.000000 rate, 4.122209 seconds, 5952 images, 8.487373 hours left
+Loaded: 0.000054 seconds
+]2;94/4000: loss=329.9 hours left=8.4
+ 94: 329.923248, 714.489807 avg loss, 0.000000 rate, 4.097661 seconds, 6016 images, 8.447239 hours left
+Loaded: 0.000068 seconds
+]2;95/4000: loss=320.2 hours left=8.4
+ 95: 320.220886, 675.062927 avg loss, 0.000000 rate, 4.115841 seconds, 6080 images, 8.407230 hours left
+Loaded: 0.000054 seconds
+]2;96/4000: loss=308.1 hours left=8.4
+ 96: 308.051788, 638.361816 avg loss, 0.000000 rate, 4.209307 seconds, 6144 images, 8.367806 hours left
+Loaded: 0.000050 seconds
+]2;97/4000: loss=298.6 hours left=8.3
+ 97: 298.611145, 604.386719 avg loss, 0.000000 rate, 4.158620 seconds, 6208 images, 8.329777 hours left
+Loaded: 0.000045 seconds
+]2;98/4000: loss=290.4 hours left=8.3
+ 98: 290.383911, 572.986450 avg loss, 0.000000 rate, 4.134231 seconds, 6272 images, 8.291569 hours left
+Loaded: 0.000057 seconds
+]2;99/4000: loss=278.9 hours left=8.3
+ 99: 278.861755, 543.573975 avg loss, 0.000000 rate, 4.213898 seconds, 6336 images, 8.253466 hours left
+Loaded: 0.000052 seconds
+]2;100/4000: loss=272.1 hours left=8.2
+ 100: 272.084534, 516.425049 avg loss, 0.000000 rate, 4.125819 seconds, 6400 images, 8.216596 hours left
+Resizing, random_coef = 1.40 
+
+ 320 x 320 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.776177 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;101/4000: loss=182.3 hours left=8.2
+ 101: 182.287704, 483.011322 avg loss, 0.000000 rate, 3.127122 seconds, 6464 images, 8.179129 hours left
+Loaded: 0.000055 seconds
+]2;102/4000: loss=177.1 hours left=8.1
+ 102: 177.085602, 452.418762 avg loss, 0.000000 rate, 3.172366 seconds, 6528 images, 8.139615 hours left
+Loaded: 0.000076 seconds
+]2;103/4000: loss=170.1 hours left=8.1
+ 103: 170.087738, 424.185669 avg loss, 0.000000 rate, 3.228996 seconds, 6592 images, 8.092571 hours left
+Loaded: 0.000049 seconds
+]2;104/4000: loss=167.1 hours left=8.0
+ 104: 167.080902, 398.475189 avg loss, 0.000000 rate, 3.190310 seconds, 6656 images, 8.046602 hours left
+Loaded: 0.000076 seconds
+]2;105/4000: loss=161.2 hours left=8.0
+ 105: 161.198990, 374.747559 avg loss, 0.000000 rate, 3.252886 seconds, 6720 images, 8.000665 hours left
+Loaded: 0.000079 seconds
+]2;106/4000: loss=156.6 hours left=8.0
+ 106: 156.631302, 352.935944 avg loss, 0.000000 rate, 3.190610 seconds, 6784 images, 7.955856 hours left
+Loaded: 0.000045 seconds
+]2;107/4000: loss=150.8 hours left=7.9
+ 107: 150.771149, 332.719452 avg loss, 0.000000 rate, 3.195001 seconds, 6848 images, 7.910813 hours left
+Loaded: 0.000075 seconds
+]2;108/4000: loss=147.5 hours left=7.9
+ 108: 147.465012, 314.194000 avg loss, 0.000000 rate, 3.189148 seconds, 6912 images, 7.866259 hours left
+Loaded: 0.000057 seconds
+]2;109/4000: loss=142.6 hours left=7.8
+ 109: 142.637772, 297.038391 avg loss, 0.000000 rate, 3.198007 seconds, 6976 images, 7.822078 hours left
+Loaded: 0.000064 seconds
+]2;110/4000: loss=138.2 hours left=7.8
+ 110: 138.187546, 281.153320 avg loss, 0.000000 rate, 3.191367 seconds, 7040 images, 7.778425 hours left
+Resizing, random_coef = 1.40 
+
+ 544 x 544 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000041 seconds
+]2;111/4000: loss=391.9 hours left=7.7
+ 111: 391.918518, 292.229828 avg loss, 0.000000 rate, 8.308534 seconds, 7104 images, 7.735129 hours left
+Loaded: 0.000089 seconds
+]2;112/4000: loss=376.3 hours left=7.7
+ 112: 376.348755, 300.641724 avg loss, 0.000000 rate, 8.599238 seconds, 7168 images, 7.747536 hours left
+Loaded: 0.000086 seconds
+]2;113/4000: loss=370.7 hours left=7.8
+ 113: 370.709229, 307.648468 avg loss, 0.000000 rate, 8.621328 seconds, 7232 images, 7.762936 hours left
+Loaded: 0.000077 seconds
+]2;114/4000: loss=349.5 hours left=7.8
+ 114: 349.525299, 311.836151 avg loss, 0.000000 rate, 8.619976 seconds, 7296 images, 7.778396 hours left
+Loaded: 0.000089 seconds
+]2;115/4000: loss=337.2 hours left=7.8
+ 115: 337.233185, 314.375854 avg loss, 0.000000 rate, 8.554464 seconds, 7360 images, 7.793663 hours left
+Loaded: 0.000069 seconds
+]2;116/4000: loss=322.1 hours left=7.8
+ 116: 322.068054, 315.145081 avg loss, 0.000000 rate, 8.590137 seconds, 7424 images, 7.808046 hours left
+Loaded: 0.000084 seconds
+]2;117/4000: loss=302.5 hours left=7.8
+ 117: 302.473846, 313.877960 avg loss, 0.000000 rate, 8.521627 seconds, 7488 images, 7.822647 hours left
+Loaded: 0.000090 seconds
+]2;118/4000: loss=287.7 hours left=7.8
+ 118: 287.682495, 311.258423 avg loss, 0.000000 rate, 8.543666 seconds, 7552 images, 7.836339 hours left
+Loaded: 0.000068 seconds
+]2;119/4000: loss=273.9 hours left=7.9
+ 119: 273.924744, 307.525055 avg loss, 0.000000 rate, 8.527795 seconds, 7616 images, 7.850108 hours left
+Loaded: 0.000062 seconds
+]2;120/4000: loss=258.5 hours left=7.9
+ 120: 258.476532, 302.620209 avg loss, 0.000000 rate, 8.557222 seconds, 7680 images, 7.863544 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000035 seconds
+]2;121/4000: loss=102.0 hours left=7.9
+ 121: 102.003105, 282.558502 avg loss, 0.000000 rate, 3.547008 seconds, 7744 images, 7.877139 hours left
+Loaded: 0.000056 seconds
+]2;122/4000: loss=96.2 hours left=7.8
+ 122: 96.183723, 263.921021 avg loss, 0.000000 rate, 3.661329 seconds, 7808 images, 7.836590 hours left
+Loaded: 0.000077 seconds
+]2;123/4000: loss=91.4 hours left=7.8
+ 123: 91.352829, 246.664200 avg loss, 0.000000 rate, 3.657823 seconds, 7872 images, 7.797667 hours left
+Loaded: 0.000070 seconds
+]2;124/4000: loss=86.4 hours left=7.8
+ 124: 86.387901, 230.636566 avg loss, 0.000000 rate, 3.662170 seconds, 7936 images, 7.759087 hours left
+Loaded: 0.000051 seconds
+]2;125/4000: loss=82.1 hours left=7.7
+ 125: 82.108505, 215.783768 avg loss, 0.000000 rate, 3.646998 seconds, 8000 images, 7.720928 hours left
+Loaded: 0.000065 seconds
+]2;126/4000: loss=78.2 hours left=7.7
+ 126: 78.190208, 202.024414 avg loss, 0.000000 rate, 3.654908 seconds, 8064 images, 7.682977 hours left
+Loaded: 0.000072 seconds
+]2;127/4000: loss=73.7 hours left=7.6
+ 127: 73.667786, 189.188751 avg loss, 0.000000 rate, 3.698093 seconds, 8128 images, 7.645499 hours left
+Loaded: 0.000072 seconds
+]2;128/4000: loss=70.8 hours left=7.6
+ 128: 70.759758, 177.345856 avg loss, 0.000000 rate, 3.684507 seconds, 8192 images, 7.608832 hours left
+Loaded: 0.000061 seconds
+]2;129/4000: loss=67.1 hours left=7.6
+ 129: 67.107895, 166.322067 avg loss, 0.000000 rate, 3.657479 seconds, 8256 images, 7.572376 hours left
+Loaded: 0.000054 seconds
+]2;130/4000: loss=63.7 hours left=7.5
+ 130: 63.728100, 156.062668 avg loss, 0.000000 rate, 3.698236 seconds, 8320 images, 7.535983 hours left
+Resizing, random_coef = 1.40 
+
+ 416 x 416 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000049 seconds
+]2;131/4000: loss=84.3 hours left=7.5
+ 131: 84.266075, 148.883011 avg loss, 0.000000 rate, 4.770694 seconds, 8384 images, 7.500382 hours left
+Loaded: 0.000057 seconds
+]2;132/4000: loss=80.0 hours left=7.5
+ 132: 79.967545, 141.991470 avg loss, 0.000000 rate, 4.926741 seconds, 8448 images, 7.476653 hours left
+Loaded: 0.000064 seconds
+]2;133/4000: loss=76.4 hours left=7.5
+ 133: 76.433884, 135.435715 avg loss, 0.000000 rate, 4.946699 seconds, 8512 images, 7.454825 hours left
+Loaded: 0.000058 seconds
+]2;134/4000: loss=73.2 hours left=7.4
+ 134: 73.239059, 129.216049 avg loss, 0.000000 rate, 4.903733 seconds, 8576 images, 7.433416 hours left
+Loaded: 0.000078 seconds
+]2;135/4000: loss=69.5 hours left=7.4
+ 135: 69.480423, 123.242485 avg loss, 0.000000 rate, 4.951851 seconds, 8640 images, 7.411744 hours left
+Loaded: 0.000075 seconds
+]2;136/4000: loss=66.2 hours left=7.4
+ 136: 66.169739, 117.535210 avg loss, 0.000000 rate, 4.912647 seconds, 8704 images, 7.390794 hours left
+Loaded: 0.000066 seconds
+]2;137/4000: loss=63.2 hours left=7.4
+ 137: 63.174870, 112.099174 avg loss, 0.000000 rate, 4.934690 seconds, 8768 images, 7.369618 hours left
+Loaded: 0.000084 seconds
+]2;138/4000: loss=60.1 hours left=7.3
+ 138: 60.114357, 106.900696 avg loss, 0.000000 rate, 4.923811 seconds, 8832 images, 7.348877 hours left
+Loaded: 0.000074 seconds
+]2;139/4000: loss=56.5 hours left=7.3
+ 139: 56.463505, 101.856979 avg loss, 0.000000 rate, 4.928472 seconds, 8896 images, 7.328213 hours left
+Loaded: 0.000047 seconds
+]2;140/4000: loss=54.4 hours left=7.3
+ 140: 54.359783, 97.107262 avg loss, 0.000000 rate, 4.900411 seconds, 8960 images, 7.307791 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000035 seconds
+]2;141/4000: loss=44.2 hours left=7.3
+ 141: 44.203732, 91.816910 avg loss, 0.000000 rate, 3.995667 seconds, 9024 images, 7.287260 hours left
+Loaded: 0.000071 seconds
+]2;142/4000: loss=41.7 hours left=7.3
+ 142: 41.672523, 86.802475 avg loss, 0.000000 rate, 4.126769 seconds, 9088 images, 7.257221 hours left
+Loaded: 0.000059 seconds
+]2;143/4000: loss=39.5 hours left=7.2
+ 143: 39.492615, 82.071487 avg loss, 0.000000 rate, 4.120609 seconds, 9152 images, 7.228877 hours left
+Loaded: 0.000060 seconds
+]2;144/4000: loss=37.6 hours left=7.2
+ 144: 37.581772, 77.622513 avg loss, 0.000000 rate, 4.116901 seconds, 9216 images, 7.200738 hours left
+Loaded: 0.000078 seconds
+]2;145/4000: loss=35.8 hours left=7.2
+ 145: 35.809059, 73.441170 avg loss, 0.000000 rate, 4.119705 seconds, 9280 images, 7.172830 hours left
+Loaded: 0.000053 seconds
+]2;146/4000: loss=34.1 hours left=7.1
+ 146: 34.144966, 69.511551 avg loss, 0.000000 rate, 4.119061 seconds, 9344 images, 7.145221 hours left
+Loaded: 0.000049 seconds
+]2;147/4000: loss=32.9 hours left=7.1
+ 147: 32.856461, 65.846039 avg loss, 0.000000 rate, 4.229210 seconds, 9408 images, 7.117868 hours left
+Loaded: 0.000085 seconds
+]2;148/4000: loss=30.9 hours left=7.1
+ 148: 30.899775, 62.351414 avg loss, 0.000000 rate, 4.145725 seconds, 9472 images, 7.091956 hours left
+Loaded: 0.000050 seconds
+]2;149/4000: loss=29.6 hours left=7.1
+ 149: 29.625546, 59.078827 avg loss, 0.000000 rate, 4.137801 seconds, 9536 images, 7.065398 hours left
+Loaded: 0.000072 seconds
+]2;150/4000: loss=28.3 hours left=7.0
+ 150: 28.327959, 56.003738 avg loss, 0.000001 rate, 4.194541 seconds, 9600 images, 7.039010 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.216593 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;151/4000: loss=22.5 hours left=7.0
+ 151: 22.524340, 52.655800 avg loss, 0.000001 rate, 3.596499 seconds, 9664 images, 7.013481 hours left
+Loaded: 0.000081 seconds
+]2;152/4000: loss=21.7 hours left=7.0
+ 152: 21.687300, 49.558949 avg loss, 0.000001 rate, 3.690773 seconds, 9728 images, 6.984124 hours left
+Loaded: 0.000069 seconds
+]2;153/4000: loss=20.4 hours left=7.0
+ 153: 20.431696, 46.646225 avg loss, 0.000001 rate, 3.661616 seconds, 9792 images, 6.953736 hours left
+Loaded: 0.000052 seconds
+]2;154/4000: loss=19.8 hours left=6.9
+ 154: 19.755808, 43.957184 avg loss, 0.000001 rate, 3.643788 seconds, 9856 images, 6.923330 hours left
+Loaded: 0.000053 seconds
+]2;155/4000: loss=18.9 hours left=6.9
+ 155: 18.902403, 41.451706 avg loss, 0.000001 rate, 3.670962 seconds, 9920 images, 6.893027 hours left
+Loaded: 0.000050 seconds
+]2;156/4000: loss=18.0 hours left=6.9
+ 156: 18.046362, 39.111172 avg loss, 0.000001 rate, 3.649122 seconds, 9984 images, 6.863308 hours left
+Loaded: 0.000052 seconds
+]2;157/4000: loss=17.0 hours left=6.8
+ 157: 17.047831, 36.904839 avg loss, 0.000001 rate, 3.649819 seconds, 10048 images, 6.833641 hours left
+Loaded: 0.000051 seconds
+]2;158/4000: loss=16.5 hours left=6.8
+ 158: 16.535646, 34.867920 avg loss, 0.000001 rate, 3.658797 seconds, 10112 images, 6.804270 hours left
+Loaded: 0.000076 seconds
+]2;159/4000: loss=15.9 hours left=6.8
+ 159: 15.886858, 32.969814 avg loss, 0.000001 rate, 3.684221 seconds, 10176 images, 6.775277 hours left
+Loaded: 0.000047 seconds
+]2;160/4000: loss=15.3 hours left=6.7
+ 160: 15.327826, 31.205616 avg loss, 0.000001 rate, 3.662233 seconds, 10240 images, 6.746836 hours left
+Resizing, random_coef = 1.40 
+
+ 512 x 512 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000044 seconds
+]2;161/4000: loss=30.1 hours left=6.7
+ 161: 30.120659, 31.097120 avg loss, 0.000001 rate, 6.339320 seconds, 10304 images, 6.718434 hours left
+Loaded: 0.000092 seconds
+]2;162/4000: loss=28.8 hours left=6.7
+ 162: 28.820091, 30.869417 avg loss, 0.000001 rate, 6.554494 seconds, 10368 images, 6.718854 hours left
+Loaded: 0.000078 seconds
+]2;163/4000: loss=27.4 hours left=6.7
+ 163: 27.359747, 30.518450 avg loss, 0.000001 rate, 6.523641 seconds, 10432 images, 6.721547 hours left
+Loaded: 0.000054 seconds
+]2;164/4000: loss=25.9 hours left=6.7
+ 164: 25.939405, 30.060545 avg loss, 0.000001 rate, 6.567388 seconds, 10496 images, 6.723866 hours left
+Loaded: 0.000091 seconds
+]2;165/4000: loss=24.6 hours left=6.7
+ 165: 24.573935, 29.511885 avg loss, 0.000001 rate, 6.530534 seconds, 10560 images, 6.726609 hours left
+Loaded: 0.000086 seconds
+]2;166/4000: loss=23.2 hours left=6.7
+ 166: 23.174847, 28.878181 avg loss, 0.000001 rate, 6.573854 seconds, 10624 images, 6.728915 hours left
+Loaded: 0.000073 seconds
+]2;167/4000: loss=22.0 hours left=6.7
+ 167: 22.042034, 28.194567 avg loss, 0.000001 rate, 6.531292 seconds, 10688 images, 6.731640 hours left
+Loaded: 0.000065 seconds
+]2;168/4000: loss=20.6 hours left=6.7
+ 168: 20.585060, 27.433617 avg loss, 0.000001 rate, 6.528532 seconds, 10752 images, 6.733867 hours left
+Loaded: 0.000065 seconds
+]2;169/4000: loss=19.3 hours left=6.7
+ 169: 19.304474, 26.620703 avg loss, 0.000001 rate, 6.532982 seconds, 10816 images, 6.736024 hours left
+Loaded: 0.000060 seconds
+]2;170/4000: loss=18.1 hours left=6.7
+ 170: 18.076403, 25.766273 avg loss, 0.000001 rate, 6.508210 seconds, 10880 images, 6.738189 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000066 seconds
+]2;171/4000: loss=8.5 hours left=6.7
+ 171: 8.505959, 24.040241 avg loss, 0.000001 rate, 3.526110 seconds, 10944 images, 6.740050 hours left
+Loaded: 0.000045 seconds
+]2;172/4000: loss=8.1 hours left=6.7
+ 172: 8.074628, 22.443680 avg loss, 0.000001 rate, 3.625413 seconds, 11008 images, 6.710156 hours left
+Loaded: 0.000054 seconds
+]2;173/4000: loss=7.7 hours left=6.7
+ 173: 7.657787, 20.965090 avg loss, 0.000001 rate, 3.657782 seconds, 11072 images, 6.681608 hours left
+Loaded: 0.000070 seconds
+]2;174/4000: loss=7.1 hours left=6.7
+ 174: 7.108328, 19.579414 avg loss, 0.000001 rate, 3.665405 seconds, 11136 images, 6.653678 hours left
+Loaded: 0.000057 seconds
+]2;175/4000: loss=6.8 hours left=6.6
+ 175: 6.768194, 18.298292 avg loss, 0.000001 rate, 3.648207 seconds, 11200 images, 6.626099 hours left
+Loaded: 0.000062 seconds
+]2;176/4000: loss=6.5 hours left=6.6
+ 176: 6.520435, 17.120506 avg loss, 0.000001 rate, 3.658813 seconds, 11264 images, 6.598603 hours left
+Loaded: 0.000066 seconds
+]2;177/4000: loss=6.4 hours left=6.6
+ 177: 6.421558, 16.050611 avg loss, 0.000001 rate, 3.694279 seconds, 11328 images, 6.571544 hours left
+Loaded: 0.000054 seconds
+]2;178/4000: loss=6.1 hours left=6.5
+ 178: 6.142324, 15.059783 avg loss, 0.000001 rate, 3.661488 seconds, 11392 images, 6.545062 hours left
+Loaded: 0.000072 seconds
+]2;179/4000: loss=5.8 hours left=6.5
+ 179: 5.821904, 14.135995 avg loss, 0.000001 rate, 3.672785 seconds, 11456 images, 6.518488 hours left
+Loaded: 0.000057 seconds
+]2;180/4000: loss=5.5 hours left=6.5
+ 180: 5.491890, 13.271585 avg loss, 0.000001 rate, 3.659488 seconds, 11520 images, 6.492288 hours left
+Resizing, random_coef = 1.40 
+
+ 320 x 320 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.294084 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;181/4000: loss=4.5 hours left=6.5
+ 181: 4.503681, 12.394794 avg loss, 0.000001 rate, 3.175561 seconds, 11584 images, 6.466208 hours left
+Loaded: 0.000056 seconds
+]2;182/4000: loss=4.3 hours left=6.4
+ 182: 4.258120, 11.581127 avg loss, 0.000001 rate, 3.217837 seconds, 11648 images, 6.438355 hours left
+Loaded: 0.000055 seconds
+]2;183/4000: loss=4.5 hours left=6.4
+ 183: 4.549950, 10.878010 avg loss, 0.000001 rate, 3.199621 seconds, 11712 images, 6.408101 hours left
+Loaded: 0.000058 seconds
+]2;184/4000: loss=4.2 hours left=6.4
+ 184: 4.228487, 10.213058 avg loss, 0.000001 rate, 3.188803 seconds, 11776 images, 6.377947 hours left
+Loaded: 0.000049 seconds
+]2;185/4000: loss=3.9 hours left=6.3
+ 185: 3.856686, 9.577420 avg loss, 0.000001 rate, 3.208878 seconds, 11840 images, 6.347971 hours left
+Loaded: 0.000058 seconds
+]2;186/4000: loss=3.9 hours left=6.3
+ 186: 3.912140, 9.010892 avg loss, 0.000001 rate, 3.227328 seconds, 11904 images, 6.318500 hours left
+Loaded: 0.000062 seconds
+]2;187/4000: loss=3.7 hours left=6.3
+ 187: 3.738827, 8.483685 avg loss, 0.000001 rate, 3.235039 seconds, 11968 images, 6.289509 hours left
+Loaded: 0.000050 seconds
+]2;188/4000: loss=3.7 hours left=6.3
+ 188: 3.722245, 8.007542 avg loss, 0.000001 rate, 3.225432 seconds, 12032 images, 6.260881 hours left
+Loaded: 0.000052 seconds
+]2;189/4000: loss=3.4 hours left=6.2
+ 189: 3.397441, 7.546532 avg loss, 0.000001 rate, 3.187100 seconds, 12096 images, 6.232428 hours left
+Loaded: 0.000064 seconds
+]2;190/4000: loss=3.4 hours left=6.2
+ 190: 3.431863, 7.135065 avg loss, 0.000001 rate, 3.254415 seconds, 12160 images, 6.203846 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000044 seconds
+]2;191/4000: loss=3.8 hours left=6.2
+ 191: 3.784271, 6.799985 avg loss, 0.000001 rate, 3.616111 seconds, 12224 images, 6.176252 hours left
+Loaded: 0.000058 seconds
+]2;192/4000: loss=3.6 hours left=6.2
+ 192: 3.583977, 6.478384 avg loss, 0.000001 rate, 3.660365 seconds, 12288 images, 6.152753 hours left
+Loaded: 0.000073 seconds
+]2;193/4000: loss=3.6 hours left=6.1
+ 193: 3.554044, 6.185950 avg loss, 0.000001 rate, 3.695042 seconds, 12352 images, 6.129947 hours left
+Loaded: 0.000080 seconds
+]2;194/4000: loss=3.4 hours left=6.1
+ 194: 3.430944, 5.910450 avg loss, 0.000001 rate, 3.670458 seconds, 12416 images, 6.107726 hours left
+Loaded: 0.000104 seconds
+]2;195/4000: loss=3.3 hours left=6.1
+ 195: 3.348651, 5.654270 avg loss, 0.000001 rate, 3.681473 seconds, 12480 images, 6.085456 hours left
+Loaded: 0.000044 seconds
+]2;196/4000: loss=3.4 hours left=6.1
+ 196: 3.440914, 5.432934 avg loss, 0.000001 rate, 3.663040 seconds, 12544 images, 6.063516 hours left
+Loaded: 0.000060 seconds
+]2;197/4000: loss=3.2 hours left=6.0
+ 197: 3.169477, 5.206589 avg loss, 0.000002 rate, 3.656236 seconds, 12608 images, 6.041589 hours left
+Loaded: 0.000065 seconds
+]2;198/4000: loss=3.2 hours left=6.0
+ 198: 3.166995, 5.002629 avg loss, 0.000002 rate, 3.695646 seconds, 12672 images, 6.019800 hours left
+Loaded: 0.000072 seconds
+]2;199/4000: loss=3.1 hours left=6.0
+ 199: 3.138655, 4.816232 avg loss, 0.000002 rate, 3.756956 seconds, 12736 images, 5.998634 hours left
+Loaded: 0.000054 seconds
+]2;200/4000: loss=2.9 hours left=6.0
+ 200: 2.893471, 4.623956 avg loss, 0.000002 rate, 3.739350 seconds, 12800 images, 5.978318 hours left
+Resizing, random_coef = 1.40 
+
+ 480 x 480 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000049 seconds
+]2;201/4000: loss=4.3 hours left=6.0
+ 201: 4.321378, 4.593698 avg loss, 0.000002 rate, 5.943045 seconds, 12864 images, 5.958008 hours left
+Loaded: 0.000051 seconds
+]2;202/4000: loss=4.6 hours left=6.0
+ 202: 4.554487, 4.589777 avg loss, 0.000002 rate, 6.126695 seconds, 12928 images, 5.961146 hours left
+Loaded: 0.000080 seconds
+]2;203/4000: loss=4.2 hours left=6.0
+ 203: 4.156800, 4.546479 avg loss, 0.000002 rate, 6.156936 seconds, 12992 images, 5.966174 hours left
+Loaded: 0.000061 seconds
+]2;204/4000: loss=4.1 hours left=6.0
+ 204: 4.063371, 4.498168 avg loss, 0.000002 rate, 6.146920 seconds, 13056 images, 5.971454 hours left
+Loaded: 0.000066 seconds
+]2;205/4000: loss=3.9 hours left=6.0
+ 205: 3.887663, 4.437118 avg loss, 0.000002 rate, 6.172478 seconds, 13120 images, 5.976558 hours left
+Loaded: 0.000073 seconds
+]2;206/4000: loss=3.7 hours left=6.0
+ 206: 3.651860, 4.358593 avg loss, 0.000002 rate, 6.133530 seconds, 13184 images, 5.981863 hours left
+Loaded: 0.000063 seconds
+]2;207/4000: loss=3.8 hours left=6.0
+ 207: 3.799641, 4.302697 avg loss, 0.000002 rate, 6.163622 seconds, 13248 images, 5.986688 hours left
+Loaded: 0.000053 seconds
+]2;208/4000: loss=3.4 hours left=6.0
+ 208: 3.397037, 4.212131 avg loss, 0.000002 rate, 6.195217 seconds, 13312 images, 5.991764 hours left
+Loaded: 0.000058 seconds
+]2;209/4000: loss=3.4 hours left=6.0
+ 209: 3.383248, 4.129243 avg loss, 0.000002 rate, 6.132138 seconds, 13376 images, 5.997105 hours left
+Loaded: 0.000084 seconds
+]2;210/4000: loss=3.3 hours left=6.0
+ 210: 3.279751, 4.044294 avg loss, 0.000002 rate, 6.177519 seconds, 13440 images, 6.001712 hours left
+Resizing, random_coef = 1.40 
+
+ 448 x 448 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.222242 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;211/4000: loss=2.8 hours left=6.0
+ 211: 2.836093, 3.923474 avg loss, 0.000002 rate, 5.295460 seconds, 13504 images, 6.006733 hours left
+Loaded: 0.000057 seconds
+]2;212/4000: loss=2.9 hours left=6.0
+ 212: 2.932055, 3.824332 avg loss, 0.000002 rate, 5.421631 seconds, 13568 images, 6.004742 hours left
+Loaded: 0.000052 seconds
+]2;213/4000: loss=2.8 hours left=6.0
+ 213: 2.779060, 3.719805 avg loss, 0.000002 rate, 5.432067 seconds, 13632 images, 6.001745 hours left
+Loaded: 0.000072 seconds
+]2;214/4000: loss=2.7 hours left=6.0
+ 214: 2.696489, 3.617473 avg loss, 0.000002 rate, 5.406628 seconds, 13696 images, 5.998872 hours left
+Loaded: 0.000071 seconds
+]2;215/4000: loss=2.4 hours left=6.0
+ 215: 2.448085, 3.500534 avg loss, 0.000002 rate, 5.437958 seconds, 13760 images, 5.995746 hours left
+Loaded: 0.000055 seconds
+]2;216/4000: loss=2.7 hours left=6.0
+ 216: 2.718410, 3.422322 avg loss, 0.000002 rate, 5.460114 seconds, 13824 images, 5.992966 hours left
+Loaded: 0.000045 seconds
+]2;217/4000: loss=2.3 hours left=6.0
+ 217: 2.301554, 3.310245 avg loss, 0.000002 rate, 5.417350 seconds, 13888 images, 5.990431 hours left
+Loaded: 0.000077 seconds
+]2;218/4000: loss=2.3 hours left=6.0
+ 218: 2.311935, 3.210414 avg loss, 0.000002 rate, 5.421320 seconds, 13952 images, 5.987456 hours left
+Loaded: 0.000054 seconds
+]2;219/4000: loss=2.3 hours left=6.0
+ 219: 2.336498, 3.123022 avg loss, 0.000002 rate, 5.438001 seconds, 14016 images, 5.984539 hours left
+Loaded: 0.000052 seconds
+]2;220/4000: loss=2.1 hours left=6.0
+ 220: 2.081961, 3.018916 avg loss, 0.000002 rate, 5.408944 seconds, 14080 images, 5.981810 hours left
+Resizing, random_coef = 1.40 
+
+ 512 x 512 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000052 seconds
+]2;221/4000: loss=2.3 hours left=6.0
+ 221: 2.330480, 2.950073 avg loss, 0.000002 rate, 6.349657 seconds, 14144 images, 5.978788 hours left
+Loaded: 0.000070 seconds
+]2;222/4000: loss=2.4 hours left=6.0
+ 222: 2.396439, 2.894709 avg loss, 0.000002 rate, 6.513982 seconds, 14208 images, 5.985657 hours left
+Loaded: 0.000074 seconds
+]2;223/4000: loss=2.4 hours left=6.0
+ 223: 2.392744, 2.844513 avg loss, 0.000002 rate, 6.543214 seconds, 14272 images, 5.994163 hours left
+Loaded: 0.000052 seconds
+]2;224/4000: loss=2.2 hours left=6.0
+ 224: 2.244255, 2.784487 avg loss, 0.000003 rate, 6.549585 seconds, 14336 images, 6.002874 hours left
+Loaded: 0.000071 seconds
+]2;225/4000: loss=2.1 hours left=6.0
+ 225: 2.097090, 2.715747 avg loss, 0.000003 rate, 6.529200 seconds, 14400 images, 6.011546 hours left
+Loaded: 0.000086 seconds
+]2;226/4000: loss=2.2 hours left=6.0
+ 226: 2.157750, 2.659948 avg loss, 0.000003 rate, 6.549329 seconds, 14464 images, 6.019900 hours left
+Loaded: 0.000089 seconds
+]2;227/4000: loss=2.0 hours left=6.0
+ 227: 2.016689, 2.595622 avg loss, 0.000003 rate, 6.526956 seconds, 14528 images, 6.028363 hours left
+Loaded: 0.000058 seconds
+]2;228/4000: loss=2.0 hours left=6.0
+ 228: 1.982341, 2.534294 avg loss, 0.000003 rate, 6.525378 seconds, 14592 images, 6.036489 hours left
+Loaded: 0.000055 seconds
+]2;229/4000: loss=1.9 hours left=6.0
+ 229: 1.909251, 2.471790 avg loss, 0.000003 rate, 6.602200 seconds, 14656 images, 6.044498 hours left
+Loaded: 0.000098 seconds
+]2;230/4000: loss=1.9 hours left=6.1
+ 230: 1.890528, 2.413663 avg loss, 0.000003 rate, 6.514352 seconds, 14720 images, 6.053214 hours left
+Resizing, random_coef = 1.40 
+
+ 480 x 480 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.242051 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;231/4000: loss=1.7 hours left=6.1
+ 231: 1.684365, 2.340734 avg loss, 0.000003 rate, 5.989554 seconds, 14784 images, 6.060905 hours left
+Loaded: 0.000051 seconds
+]2;232/4000: loss=1.6 hours left=6.1
+ 232: 1.647246, 2.271385 avg loss, 0.000003 rate, 6.099581 seconds, 14848 images, 6.065539 hours left
+Loaded: 0.000049 seconds
+]2;233/4000: loss=1.7 hours left=6.1
+ 233: 1.693024, 2.213549 avg loss, 0.000003 rate, 6.170731 seconds, 14912 images, 6.068729 hours left
+Loaded: 0.000050 seconds
+]2;234/4000: loss=1.6 hours left=6.1
+ 234: 1.570404, 2.149234 avg loss, 0.000003 rate, 6.117907 seconds, 14976 images, 6.072614 hours left
+Loaded: 0.000047 seconds
+]2;235/4000: loss=1.5 hours left=6.1
+ 235: 1.461095, 2.080420 avg loss, 0.000003 rate, 6.116317 seconds, 15040 images, 6.075890 hours left
+Loaded: 0.000048 seconds
+]2;236/4000: loss=1.7 hours left=6.1
+ 236: 1.690521, 2.041430 avg loss, 0.000003 rate, 6.137797 seconds, 15104 images, 6.079100 hours left
+Loaded: 0.000065 seconds
+]2;237/4000: loss=1.4 hours left=6.1
+ 237: 1.394219, 1.976709 avg loss, 0.000003 rate, 6.123575 seconds, 15168 images, 6.082485 hours left
+Loaded: 0.000068 seconds
+]2;238/4000: loss=1.5 hours left=6.1
+ 238: 1.511836, 1.930222 avg loss, 0.000003 rate, 6.132475 seconds, 15232 images, 6.085672 hours left
+Loaded: 0.000051 seconds
+]2;239/4000: loss=1.7 hours left=6.1
+ 239: 1.703117, 1.907511 avg loss, 0.000003 rate, 6.124480 seconds, 15296 images, 6.088902 hours left
+Loaded: 0.000072 seconds
+]2;240/4000: loss=1.5 hours left=6.1
+ 240: 1.450511, 1.861811 avg loss, 0.000003 rate, 6.132916 seconds, 15360 images, 6.092000 hours left
+Resizing, random_coef = 1.40 
+
+ 416 x 416 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.121145 seconds - performance bottleneck on CPU or Disk HDD/SSD
+]2;241/4000: loss=1.2 hours left=6.1
+ 241: 1.200414, 1.795672 avg loss, 0.000003 rate, 4.835226 seconds, 15424 images, 6.095137 hours left
+Loaded: 0.000055 seconds
+]2;242/4000: loss=1.5 hours left=6.1
+ 242: 1.490667, 1.765171 avg loss, 0.000003 rate, 4.953311 seconds, 15488 images, 6.085941 hours left
+Loaded: 0.000057 seconds
+]2;243/4000: loss=1.3 hours left=6.1
+ 243: 1.273979, 1.716052 avg loss, 0.000003 rate, 4.915724 seconds, 15552 images, 6.076791 hours left
+Loaded: 0.000048 seconds
+]2;244/4000: loss=1.4 hours left=6.1
+ 244: 1.388107, 1.683257 avg loss, 0.000004 rate, 4.926181 seconds, 15616 images, 6.067327 hours left
+Loaded: 0.000097 seconds
+]2;245/4000: loss=1.3 hours left=6.1
+ 245: 1.267228, 1.641654 avg loss, 0.000004 rate, 4.949930 seconds, 15680 images, 6.058053 hours left
+Loaded: 0.000063 seconds
+]2;246/4000: loss=1.2 hours left=6.0
+ 246: 1.194636, 1.596953 avg loss, 0.000004 rate, 4.908656 seconds, 15744 images, 6.049107 hours left
+Loaded: 0.000059 seconds
+]2;247/4000: loss=1.3 hours left=6.0
+ 247: 1.330903, 1.570348 avg loss, 0.000004 rate, 4.893103 seconds, 15808 images, 6.039805 hours left
+Loaded: 0.000048 seconds
+]2;248/4000: loss=1.2 hours left=6.0
+ 248: 1.164727, 1.529786 avg loss, 0.000004 rate, 4.905794 seconds, 15872 images, 6.030420 hours left
+Loaded: 0.000065 seconds
+]2;249/4000: loss=1.3 hours left=6.0
+ 249: 1.318973, 1.508704 avg loss, 0.000004 rate, 4.891472 seconds, 15936 images, 6.021247 hours left
+Loaded: 0.000051 seconds
+]2;250/4000: loss=1.2 hours left=6.0
+ 250: 1.173656, 1.475199 avg loss, 0.000004 rate, 4.895674 seconds, 16000 images, 6.012004 hours left
+Resizing, random_coef = 1.40 
+
+ 480 x 480 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000050 seconds
+]2;251/4000: loss=1.2 hours left=6.0
+ 251: 1.229734, 1.450653 avg loss, 0.000004 rate, 5.998251 seconds, 16064 images, 6.002883 hours left
+Loaded: 0.000051 seconds
+]2;252/4000: loss=1.3 hours left=6.0
+ 252: 1.257159, 1.431304 avg loss, 0.000004 rate, 6.162501 seconds, 16128 images, 6.005322 hours left
+Loaded: 0.000069 seconds
+]2;253/4000: loss=1.3 hours left=6.0
+ 253: 1.272218, 1.415395 avg loss, 0.000004 rate, 6.163680 seconds, 16192 images, 6.009430 hours left
+Loaded: 0.000052 seconds
+]2;254/4000: loss=1.2 hours left=6.0
+ 254: 1.218594, 1.395715 avg loss, 0.000004 rate, 6.133909 seconds, 16256 images, 6.013492 hours left
+Loaded: 0.000084 seconds
+]2;255/4000: loss=1.2 hours left=6.0
+ 255: 1.170170, 1.373160 avg loss, 0.000004 rate, 6.141857 seconds, 16320 images, 6.017186 hours left
+Loaded: 0.000056 seconds
+]2;256/4000: loss=1.2 hours left=6.0
+ 256: 1.178419, 1.353686 avg loss, 0.000004 rate, 6.135305 seconds, 16384 images, 6.020910 hours left
+Loaded: 0.000059 seconds
+]2;257/4000: loss=1.1 hours left=6.0
+ 257: 1.076699, 1.325988 avg loss, 0.000004 rate, 6.128688 seconds, 16448 images, 6.024511 hours left
+Loaded: 0.000058 seconds
+]2;258/4000: loss=1.1 hours left=6.0
+ 258: 1.111387, 1.304528 avg loss, 0.000004 rate, 6.137543 seconds, 16512 images, 6.027989 hours left
+Loaded: 0.000058 seconds
+]2;259/4000: loss=1.1 hours left=6.0
+ 259: 1.118391, 1.285914 avg loss, 0.000004 rate, 6.140195 seconds, 16576 images, 6.031509 hours left
+Loaded: 0.000052 seconds
+]2;260/4000: loss=1.3 hours left=6.0
+ 260: 1.298492, 1.287172 avg loss, 0.000005 rate, 6.137577 seconds, 16640 images, 6.035003 hours left
+Resizing, random_coef = 1.40 
+
+ 416 x 416 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 0.000045 seconds
+]2;261/4000: loss=1.0 hours left=6.0
+ 261: 1.004195, 1.258874 avg loss, 0.000005 rate, 4.851520 seconds, 16704 images, 6.038419 hours left
+Loaded: 0.000048 seconds
+]2;262/4000: loss=1.1 hours left=6.0
+ 262: 1.071607, 1.240147 avg loss, 0.000005 rate, 4.920837 seconds, 16768 images, 6.028426 hours left
+Loaded: 0.000049 seconds
+]2;263/4000: loss=1.0 hours left=6.0
+ 263: 1.042771, 1.220410 avg loss, 0.000005 rate, 4.905114 seconds, 16832 images, 6.019241 hours left
+Loaded: 0.000048 seconds
+]2;264/4000: loss=1.2 hours left=6.0
+ 264: 1.239086, 1.222277 avg loss, 0.000005 rate, 4.926659 seconds, 16896 images, 6.009969 hours left
+Loaded: 0.000053 seconds
+]2;265/4000: loss=1.2 hours left=6.0
+ 265: 1.171391, 1.217189 avg loss, 0.000005 rate, 4.921546 seconds, 16960 images, 6.001000 hours left
+Loaded: 0.000057 seconds
+]2;266/4000: loss=0.9 hours left=6.0
+ 266: 0.927628, 1.188233 avg loss, 0.000005 rate, 4.910645 seconds, 17024 images, 5.992053 hours left
+Loaded: 0.000077 seconds
+]2;267/4000: loss=0.9 hours left=6.0
+ 267: 0.909373, 1.160347 avg loss, 0.000005 rate, 4.947371 seconds, 17088 images, 5.983070 hours left
+Loaded: 0.000046 seconds
+]2;268/4000: loss=1.1 hours left=6.0
+ 268: 1.056989, 1.150011 avg loss, 0.000005 rate, 4.948359 seconds, 17152 images, 5.974546 hours left
+Loaded: 0.000046 seconds
+]2;269/4000: loss=1.1 hours left=6.0
+ 269: 1.100368, 1.145047 avg loss, 0.000005 rate, 4.930654 seconds, 17216 images, 5.966101 hours left
